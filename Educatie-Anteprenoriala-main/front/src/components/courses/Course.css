@@ -1,0 +1,79 @@
+.course {
+    font-size: 40px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.uploadbutton {
+    margin-left: 40px;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.buttonCollapsible {
+    text-align: center;
+    margin: 0 auto;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: mediumpurple;
+    border: hidden;
+    margin-bottom: 30px;
+  }
+  
+.buttonCollapsible:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-bottom: 30px;
+}
+
+.inputTilte {
+    width: 350px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    background: transparent;
+    border-bottom: 1px solid black;
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+}
+
+.formCollapsible > label {
+    font-size: 20px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.typeCollapsible > label {
+    font-size: 20px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.formCollapsible > textarea {
+    border: 1px solid black;
+    height: 100px;
+    font-size: 20px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+}
+
+.selectCollapsible {
+    font-size: 20px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    background: transparent;
+    border: 1px solid black;
+}
+
+.response {
+    margin-left: 20px;
+}

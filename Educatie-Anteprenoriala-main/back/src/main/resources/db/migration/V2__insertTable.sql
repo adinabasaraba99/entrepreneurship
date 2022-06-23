@@ -1,0 +1,2 @@
+insert into app_user (confirmed, email, name, password, role, surname) VALUES
+    (true, 'basaraba.adina@gmail.com', 'Basaraba', '$2a$10$W2isItDMcZqcNezYQC4jcuF4JwdSO94NPLMqmnr0aytelRDiJKIpG', 'ADMIN', 'Adina');

@@ -1,0 +1,18 @@
+.searchIcon {
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+}
+
+.searchButton {
+    background-color: mediumpurple;
+    border: hidden;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+}
+
+.searchButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-bottom: 30px;
+}

@@ -1,0 +1,94 @@
+.card {
+    width: 20rem;
+    overflow-x: auto;
+    border-radius: 20px !important;
+    height: 450px;
+    overflow-y: scroll;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+}
+
+.card::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.card-body {
+    text-align: center;
+    background: #37474F;
+    color:aliceblue;
+}
+
+.card-player {
+    width: 100%;
+    height: 180px !important;
+}
+
+.card-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: #e6dfdf;
+}
+
+.card-text {
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+    height: 70px;
+    overflow-y: scroll;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+}
+
+.card-text::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.card-footer {
+    margin-top: 15px;
+}
+
+.card-email {
+    font-size: 15px;
+    margin-bottom: 0%;
+}
+
+.card-date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.subscribe-buttom {
+    color: #fff;
+    background: rgb(149, 112, 221);
+    cursor: pointer;
+    margin-top: 7px;
+    align-items: center;
+    padding: 15px 15px;
+    height: 30px;
+    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+}
+
+.subscribe-buttom:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+@media only screen and (max-width: 750px) {
+    .card {
+        width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 885px) {
+    .card {
+        width: 17rem;
+    }
+}
+
+.react-stars {
+    margin: 0 auto;
+}
